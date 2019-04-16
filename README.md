@@ -14,18 +14,18 @@
 Переопределить "магический" метод __str__ для красивого вывода контакта.
 Вывод контакта должен быть следующим
 ```
-    jhon = Contact('Jhon', 'Smith', '+71234567809', telegram='@jhony', email='jhony@smith.com')
-    print(jhon)
+    jhon = Contact('John', 'Smith', '+71234567809', telegram='@johny', email='johny@smith.com')
+    print(john)
 ```
 Вывод 
 ```
-Имя: Jhon
+Имя: John
 Фамилия: Smith
 Телефон: +71234567809
 В избранных: нет
 Дополнительная информация:
-	 telegram : @jhony
-	 email : jhony@smith.com
+	 telegram : @johny
+	 email : johny@smith.com
 ```
 
 класс PhoneBook:
